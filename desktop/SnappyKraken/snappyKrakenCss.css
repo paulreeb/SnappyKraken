@@ -1,0 +1,148 @@
+
+
+.part1 {
+    padding: 5%;
+    background-image: url(background.png);
+    background-size: 100%;
+    
+}
+.part2 {
+    padding: 5%;
+}
+
+.part3 {
+    padding: 2%;
+}
+.part4 {
+    background-color: #fcf6f3;
+}
+.part6 {
+    background-color: #fcf6f3;
+    height:  100%;
+    padding: 5%;
+    margin: 10%;
+}
+
+.part1TextA {
+    font-family: Playfair Display;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #006280;
+    
+}
+.part1TextB {
+    font-family: Lato;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #c9540a;
+    
+}
+.part1TextC {
+    font-family: Lato;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.part2TextA {
+    font-family: Playfair Display;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.part2TextB {
+    font-family: Lato;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.part2TextC {
+    font-family: Playfair Display;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+}
+.submitForm {
+    display: flex;
+}
+.actualForm {
+    text-align: left;
+    font-family: Lato;
+    
+}
+.formPart {
+    margin-left: 5%;
+    margin-right: 5%;
+    width:50%;
+    height: 100%;
+}
+.formText {
+    font-family: Playfair Display;
+}
+.textPart {
+    width:50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Playfair Display;
+    background-color: #e5eff2;
+    
+}
+.sideText {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 900;
+    text-size-adjust: 200%;
+}
+.part4Title {
+    text-align: center;
+    font-family: Playfair Display;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #c9540a;
+}
+.testimonials {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Lato;
+}
+.testName {
+    text-size-adjust: 120%;
+}
+.learnMore {
+    text-align: center;
+}
+.part5 {
+    text-align: center;
+    font-family: Lato;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: darkslategray;
+    padding: 2%;
+    
+}
+.part2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #006280;
+    color: white;
+}
+.btn-primary {
+    background-color: #c9540a !important;
+    color: white !important;
+    border-radius: 0 !important;
+    border-color: #c9540a !important;
+}
+#bottomChoice {
+    margin-bottom: 5%;
+}
+#formBack {
+    text-align: center !important;
+    margin: 2%;
+    
+}
+.backClick {
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sanppy Kraken</title>
+    <link href="snappyKrakenCss.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+
+<body>
+    <div class="part6">
+        <h2 class="part1TextA">The following information has been sent as your feedback:
+        </h2>
+        <table border="1" align=center width="226">
+            <tr>
+                <th align="center"></th>
+                <th align="center">Name and Email</th>
+            </tr>
+
+            <script language="javascript">
+                var args = location.search.substr(1).split('&');
+                for (var i = 0; i < args.length; ++i) {
+                    var parts = args[i].split('=');
+                    if (parts != null) {
+                        var field = parts[0];
+                        var value = parts[1];
+                        if (value == null) {
+                            value = "null"
+                        } else {
+                            value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                        }
+
+                        document.writeln('<tr><td align="center">' + field + '</td>');
+                        document.writeln('<td align="center">' + value + '</td></tr>');
+                    }
+                }
+
+                function Back() {
+                    window.history.back();
+                }
+
+            </script>
+        </table>
+        <div class="backClick">
+        <button id="formBack" class="btn-primary" onclick="Back()">Back</button>
+        </div>
+    </div>
+</body>
+
+</html>
