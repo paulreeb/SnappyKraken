@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Marfeel Test</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="marfeelCSS.css">
+
+</head>
+
+<body>
+    <div class="bigBox">
+        <div id="search">
+            <div>
+                <input type="text" id="textInput">
+            </div>
+            <div>
+                <button id="submit" type="submit" value="Submit">Search</button>
+            </div>
+        </div>
+        <div>
+            <p id="empty">Does Not Exist</p>
+        </div>
+        <div id="photo" class="profileBox"><img id="picture">
+            <div>
+                <div>
+                    <p id="userName"></p>
+                </div>
+                <div>
+                    <H1 id="fullName"></H1>
+                </div>
+                <div>
+                    <p id="bio"></p>
+                </div>
+            </div>
+        </div>
+        <div class="hide">
+            <table id="tableBottom">
+                <thead>
+                    <tr>
+                        <th colspan="5">Repositories</th>
+                    </tr>
+                </thead>
+                <tbody id="repo"></tbody>
+            </table>
+        </div>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+
+
+    <script src="marfeelTest.js"></script>
+
+</body>
+</html>
